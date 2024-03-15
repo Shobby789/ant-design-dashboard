@@ -10,3 +10,17 @@
 body{
   background: whitesmoke;
 }
+
+.primary-color {
+  color: #4f6f52;
+}
+
+.grey-color {
+  color: rgb(196, 196, 196) !important;
+}
+
+.plant-card{
+  flex: 1;
+  height: 250px;
+  text-align: center;
+}
