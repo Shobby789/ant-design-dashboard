@@ -1,3 +1,8 @@
+.primary-color {
+    color: #4f6f52 !important;
+}
+  
+
 /* Main app */
 .header{
     padding-top: 15px;
@@ -52,4 +57,32 @@
 .ant-btn:hover{
     color: #4f6f52 !important;
     border-color: #4f6f52 !important;
+}
+
+.explore-btn{
+    background-color: #4f6f52 !important;
+    color: white !important;
+}
+
+.explore-btn:hover{
+    color: white !important;
+}
+
+.plant-card{
+    flex: 1;
+    height: 250px;
+    text-align: center;
+}
+
+.top-seller, .featured-seller{
+    flex: 1;
+}
+
+.divider{
+    border: 2px solid green;
+    height: 50px;
+}
+
+.card{
+    background-image: linear-gradient(to bottom, #4c7f4c79, #87e8de);
 }

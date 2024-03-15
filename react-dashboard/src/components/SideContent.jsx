@@ -1,10 +1,15 @@
+import { Flex } from 'antd'
 import React from 'react'
+import ContentSidebar from './ContentSidebar'
+import Activity from './Activity'
+
 
 const SideContent = () => {
   return (
-    <div style={{width:300}}>
-      <p>sideContent</p>
-    </div>
+    <Flex vertical gap={'2.3rem'} style={{width:300, paddingTop:"2.3rem"}}>
+      <ContentSidebar/>
+      <Activity/>
+    </Flex>
   )
 }
 
